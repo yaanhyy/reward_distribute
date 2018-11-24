@@ -12,14 +12,14 @@ import sys
 # Edit the values below to customize the script for your own needs #
 ####################################################################
 
-baker_address = 'tz1LFzD7HtsHJuvX8VCMBvofDeC4AZsU7UyP' # the address of the baker
+baker_address = 'tz1TaLYBeGZD3yKVHQGBM857CcNnFFNceLYh' # the address of the baker
 baker_alias = 'bob' # alias of the baker wallet
 hot_wallet_address = '' # if payouts are made from a non-baker address, enter it here (could be either tz1 or KT1)
 wallet_alias = '' # alias of the hot wallet
 default_fee_percent = 10 # default delegation service fee
 special_addresses = [''] #['KT1...', 'KT1...'] special accounts that get a different fee, set to '' if none
 special_fee_percent = 0 # delegation service fee for special accounts
-tx_fee = 0.000001 # transaction fee on payouts
+tx_fee = 0#0.000001  transaction fee on payouts
 precision = 6 # Tezos supports up to 6 decimal places of precision
 
 #######################################################
